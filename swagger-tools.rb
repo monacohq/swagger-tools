@@ -45,7 +45,7 @@ __END__
 <div>Loading swagger.yml to localStorage, will auto refresh when done</div>
 <script type="text/javascript">
   localStorage.setItem(CONTENT_KEY, <%= data.inspect %>)
-  setTimeout(function() { window.location = "/" }, 8000)
+  setTimeout(function() { window.location = "/" }, 5000)
 </script>
 
 @@ please
