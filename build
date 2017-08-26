@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+docker build . -t monacohq/swagger-tools:latest
+docker push monacohq/swagger-tools:latest
